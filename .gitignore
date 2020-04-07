@@ -1,4 +1,5 @@
 
 .vscode
-MNIST_data
+MNIST_data/
 __pycache__
+F_MNIST_data/
