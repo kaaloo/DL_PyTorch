@@ -1,5 +1,7 @@
 
-.vscode
+.ipynb_checkpoints/
+.vscode/
 MNIST_data/
-__pycache__
+__pycache__/
 F_MNIST_data/
+Cat_Dog_data/
