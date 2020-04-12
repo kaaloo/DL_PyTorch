@@ -32,6 +32,10 @@ def imshow(image, ax=None, title=None, normalize=True):
     """Imshow for Tensor."""
     if ax is None:
         fig, ax = plt.subplots()
+    else:
+        fig = ax.get_figure()
+    if title:
+        fig.suptitle(title)
     image = image.numpy().transpose((1, 2, 0))
 
     if normalize:
